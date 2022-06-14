@@ -1,8 +1,11 @@
+import UserResults from '../components/users/UserResults'
+
 const Home = () => {
 	return (
-		<div>
-			<h1>Home</h1>
-		</div>
+		<>
+			{/* Search component */}
+			<UserResults />
+		</>
 	)
 }
 
