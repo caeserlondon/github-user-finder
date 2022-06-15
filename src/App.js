@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import User from './pages/User'
 import NotFound from './pages/NotFound'
+import Wait from './pages/Wait'
 import Alert from './components/layout/Alert'
 import { GithubProvider } from './context/github/GithubContex'
 import { AlertProvider } from './context/alerts/AlertContext'
@@ -23,6 +24,7 @@ function App() {
 								<Route path='/about' element={<About />} />
 								<Route path='/user/:login' element={<User />} />
 								<Route path='/notfound' element={<NotFound />} />
+								<Route path='/wait' element={<Wait />} />
 								<Route path='/*' element={<NotFound />} />
 							</Routes>
 						</main>
