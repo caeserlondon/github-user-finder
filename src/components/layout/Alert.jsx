@@ -7,7 +7,7 @@ const Alert = () => {
 
 	return (
 		alert !== null && (
-			<p className='flex items-center mb-4 space-x-2 '>
+			<div className='flex items-center mb-4 space-x-2 '>
 				{alert.type === 'error' && (
 					<img
 						src={searchCat}
@@ -19,7 +19,7 @@ const Alert = () => {
 				<p className='flex-1 text-lg'>
 					<strong>{alert.message}</strong>
 				</p>
-			</p>
+			</div>
 		)
 	)
 }
