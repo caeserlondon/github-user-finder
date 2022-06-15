@@ -15,7 +15,6 @@ export const GithubProvider = ({ children }) => {
 	const [state, dispatch] = useReducer(githubReducer, initialState)
 
 	// GET SEARCH RESULT
-
 	const searchUsers = async (text) => {
 		setLoading()
 
