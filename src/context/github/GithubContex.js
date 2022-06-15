@@ -49,6 +49,8 @@ export const GithubProvider = ({ children }) => {
 
 		if (response.status === 404) {
 			window.location = '/notfound'
+		} else if (response.status === 403 || response.status === 429) {
+			window.location = '/wait'
 		} else {
 			const data = await response.json()
 
