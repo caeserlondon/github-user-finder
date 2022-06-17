@@ -9,7 +9,7 @@ const Wait = () => {
 				<div className='max-w-lg'>
 					<h1 className='text-lg font-bold mb-8'>Oops! ... To many requests</h1>
 					<div className='text-base mb-8'>
-						Github API will allow only 10 requests a minute
+						Github API will allow only 30 requests a minute
 					</div>
 					<img
 						src={wait}

@@ -1,8 +1,8 @@
-#Github User Finder
+# Github User Finder
 
-##Search and find Github users
+## Search and find Github users
 
-###Version: 1.0.0
+### Version: 1.0.0
 
 # Getting Started with Create React App
 
