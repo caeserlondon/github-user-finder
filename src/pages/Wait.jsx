@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom'
-import { FaHome } from 'react-icons/fa'
-import wait from '../assets/wait.png'
+import { FaHome } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import wait from '../assets/wait.png';
 
 const Wait = () => {
 	return (
@@ -23,6 +23,6 @@ const Wait = () => {
 				</div>
 			</div>
 		</div>
-	)
-}
-export default Wait
+	);
+};
+export default Wait;
