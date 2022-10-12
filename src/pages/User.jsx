@@ -1,19 +1,18 @@
-import { useEffect, useContext } from 'react'
-import GithubContext from '../context/github/GithubContex'
-import { useParams } from 'react-router-dom'
-import { FaUsers, FaUserFriends, FaCode } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
-import Loader from '../components/layout/Loader'
+import { useContext, useEffect } from 'react';
+import { FaCode, FaUserFriends, FaUsers } from 'react-icons/fa';
+import { Link, useParams } from 'react-router-dom';
+import Loader from '../components/layout/Loader';
+import GithubContext from '../context/github/GithubContex';
 
 const User = () => {
-	const params = useParams()
+	const params = useParams();
 
-	const { getUser, user, loading } = useContext(GithubContext)
+	const { getUser, user, loading } = useContext(GithubContext);
 
 	useEffect(() => {
-		getUser(params.login)
+		getUser(params.login);
 		// eslint-disable-next-line
-	}, [])
+	}, []);
 
 	const {
 		name,
@@ -29,10 +28,10 @@ const User = () => {
 		following,
 		public_repos,
 		hireable,
-	} = user
+	} = user;
 
 	if (loading) {
-		return <Loader />
+		return <Loader />;
 	}
 	return (
 		<>
@@ -145,7 +144,7 @@ const User = () => {
 				</div>
 			</div>
 		</>
-	)
-}
+	);
+};
 
-export default User
+export default User;
