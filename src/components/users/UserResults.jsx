@@ -1,10 +1,10 @@
-import { useContext } from 'react'
-import Loader from '../layout/Loader'
-import UserItem from './UserItem'
-import GithubContext from '../../context/github/GithubContex'
+import { useContext } from 'react';
+import GithubContext from '../../context/github/GithubContex';
+import Loader from '../layout/Loader';
+import UserItem from './UserItem';
 
 const UserResults = () => {
-	const { users, loading } = useContext(GithubContext)
+	const { users, loading } = useContext(GithubContext);
 
 	if (!loading) {
 		return (
@@ -13,10 +13,10 @@ const UserResults = () => {
 					<UserItem key={user.id} user={user} />
 				))}
 			</div>
-		)
+		);
 	} else {
-		return <Loader />
+		return <Loader />;
 	}
-}
+};
 
-export default UserResults
+export default UserResults;
