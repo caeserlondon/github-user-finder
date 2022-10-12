@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom'
-import { FaHome } from 'react-icons/fa'
-import nocat from '../assets/notfound.png'
+import { FaHome } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import nocat from '../assets/notfound.png';
 
 const NotFound = () => {
 	return (
@@ -23,6 +23,6 @@ const NotFound = () => {
 				</div>
 			</div>
 		</div>
-	)
-}
-export default NotFound
+	);
+};
+export default NotFound;
