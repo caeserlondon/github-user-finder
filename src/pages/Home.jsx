@@ -1,5 +1,5 @@
-import UserResults from '../components/users/UserResults'
-import UserSearch from '../components/users/UserSearch'
+import UserResults from '../components/users/UserResults';
+import UserSearch from '../components/users/UserSearch';
 
 const Home = () => {
 	return (
@@ -7,7 +7,7 @@ const Home = () => {
 			<UserSearch />
 			<UserResults />
 		</>
-	)
-}
+	);
+};
 
-export default Home
+export default Home;
