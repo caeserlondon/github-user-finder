@@ -1,14 +1,14 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Navbar from './components/layout/Navbar'
-import Footer from './components/layout/Footer'
-import Home from './pages/Home'
-import About from './pages/About'
-import User from './pages/User'
-import NotFound from './pages/NotFound'
-import Wait from './pages/Wait'
-import Alert from './components/layout/Alert'
-import { GithubProvider } from './context/github/GithubContex'
-import { AlertProvider } from './context/alerts/AlertContext'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Alert from './components/layout/Alert';
+import Footer from './components/layout/Footer';
+import Navbar from './components/layout/Navbar';
+import { AlertProvider } from './context/alerts/AlertContext';
+import { GithubProvider } from './context/github/GithubContex';
+import About from './pages/About';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
+import User from './pages/User';
+import Wait from './pages/Wait';
 
 function App() {
 	return (
@@ -33,7 +33,7 @@ function App() {
 				</Router>
 			</AlertProvider>
 		</GithubProvider>
-	)
+	);
 }
 
-export default App
+export default App;
