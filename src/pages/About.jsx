@@ -1,12 +1,12 @@
-import aristo from '../assets/aristo.png'
-import cam from '../assets/cam.png'
-import cold from '../assets/cold.png'
-import gangham from '../assets/gangham.png'
+import aristo from '../assets/aristo.png';
+import cam from '../assets/cam.png';
+import cold from '../assets/cold.png';
+import gangham from '../assets/gangham.png';
 
-import search from '../assets/search.png'
-import walter from '../assets/walter.png'
-import what from '../assets/what.png'
-import wait from '../assets/wait.png'
+import search from '../assets/search.png';
+import wait from '../assets/wait.png';
+import walter from '../assets/walter.png';
+import what from '../assets/what.png';
 
 const About = () => {
 	return (
@@ -43,7 +43,7 @@ const About = () => {
 				<img src={cam} alt='cat' style={{ width: '120px', margin: 'auto' }} />
 			</div>
 		</div>
-	)
-}
+	);
+};
 
-export default About
+export default About;
