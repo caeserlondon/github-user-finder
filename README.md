@@ -1,10 +1,10 @@
 ## Github User Finder
 
-#### Created with React V18.1 react-router V6.3, react-icons, TailWind and Daisy UI.
+#### Created with React V18.1 react-router V6.3, react-icons, TailWind and Daisy UI
 
-#### deployed on vercel
+####  deployed on vercel
 
-### https://github-user-finder-caeser.vercel.app/
+### <https://github-user-finder-caeser.vercel.app/>
 
 #### Search and find Github users
 
