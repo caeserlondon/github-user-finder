@@ -1,9 +1,9 @@
-import { useContext } from 'react'
-import AlertContext from '../../context/alerts/AlertContext'
-import searchCat from '../../assets/search.png'
+import { useContext } from 'react';
+import searchCat from '../../assets/search.png';
+import AlertContext from '../../context/alerts/AlertContext';
 
 const Alert = () => {
-	const { alert } = useContext(AlertContext)
+	const { alert } = useContext(AlertContext);
 
 	return (
 		alert !== null && (
@@ -21,7 +21,7 @@ const Alert = () => {
 				</p>
 			</div>
 		)
-	)
-}
+	);
+};
 
-export default Alert
+export default Alert;
