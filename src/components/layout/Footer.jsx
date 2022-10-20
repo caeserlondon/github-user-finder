@@ -1,8 +1,8 @@
-import React from 'react'
-import cat from '../../assets/Octocat.png'
+import React from 'react';
+import cat from '../../assets/Octocat.png';
 
 const Footer = () => {
-	const footerYear = new Date().getFullYear()
+	const footerYear = new Date().getFullYear();
 
 	return (
 		<footer className='footer flex p-10 text-nutral-content bg-neutral footer-center drop-shadow-md'>
@@ -22,7 +22,7 @@ const Footer = () => {
 				Copyright &copy; {footerYear} All rights reserved
 			</p>
 		</footer>
-	)
-}
+	);
+};
 
-export default Footer
+export default Footer;
