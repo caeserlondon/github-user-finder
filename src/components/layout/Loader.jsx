@@ -1,4 +1,4 @@
-import loader from '../../assets/loader.svg'
+import loader from '../../assets/loader.svg';
 
 const Spinner = () => {
 	return (
@@ -10,7 +10,7 @@ const Spinner = () => {
 				style={{ width: '350px' }}
 			/>
 		</div>
-	)
-}
+	);
+};
 
-export default Spinner
+export default Spinner;
