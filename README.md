@@ -2,7 +2,7 @@
 
 #### Created with React V18.1 react-router V6.3, react-icons, TailWind and Daisy UI
 
-####  deployed on vercel
+####  deployed on vercel.com
 
 ### <https://github-user-finder-caeser.vercel.app/>
 
