@@ -83,7 +83,11 @@ const User = () => {
 								<div className='stat'>
 									<div className='stat-title text-md'>Website</div>
 									<div className='text-lg stat-value'>
-										<a href={`${blog}`} target='_blank' rel='noreferrer'>
+										<a
+											href={`https://${blog}`}
+											target='_blank'
+											rel='noreferrer'
+										>
 											{blog}
 										</a>
 									</div>
